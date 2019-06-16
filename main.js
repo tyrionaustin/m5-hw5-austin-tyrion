@@ -1,10 +1,3 @@
-var boxes = document.getElementsByTagName('div');
-function changeColor() {
-  document.style.backgroundColor = "orange";
-}
-
-boxes.onmouseover = changeColor;
-
 var close = document.getElementById('box1');
 
 function showAlert() {
@@ -29,3 +22,12 @@ function showAlert3() {
 }
 
 oops.addEventListener('click', showAlert3);
+
+
+var box = document.getElementsByTagName('div');
+
+function changeBackground() {
+  document.div.style.backgroundColor = 'orange';
+} false
+
+box.addEventListener('onmouseover', changeBackground);
