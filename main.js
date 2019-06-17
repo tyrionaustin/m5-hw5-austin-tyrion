@@ -24,10 +24,10 @@ function showAlert3() {
 oops.addEventListener('click', showAlert3);
 
 
-var box = document.getElementsByTagName('div');
+var boxes = document.getElementsByClassName('.col-12');
 
 function changeBackground() {
-  document.div.style.backgroundColor = 'orange';
-} false
+  document.getElementsByTagName('div').style.background = 'orange';
+}
 
-box.addEventListener('onmouseover', changeBackground);
+ document.getElementsByTagName('div').addEventListener = ('onmouseover', changeBackground);
